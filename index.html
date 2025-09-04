@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Search Box</title>
+  <title>Google Style Input Box</title>
   <style>
     body {
-      background-color: #f8f9fa;
+      background-color: #f2f2f2;
       font-family: Arial, sans-serif;
       display: flex;
       justify-content: center;
@@ -14,12 +14,15 @@
       margin: 0;
     }
 
-    .search-container {
+    .search-box {
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
       text-align: center;
     }
 
     input[type="text"] {
-      width: 500px;
+      width: 100%;
       padding: 14px 20px;
       font-size: 18px;
       border: 1px solid #dcdcdc;
@@ -35,7 +38,7 @@
   </style>
 </head>
 <body>
-  <div class="search-container">
+  <div class="search-box">
     <input type="text" placeholder="Search Google or type a URL" />
   </div>
 </body>
