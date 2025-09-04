@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Login Form</title>
+  <title>Simple Login Form</title>
   <style>
     body {
       background-color: #f2f2f2;
@@ -14,21 +14,16 @@
       margin: 0;
     }
 
-    .login-container {
+    .form-container {
       background-color: white;
-      padding: 40px;
+      padding: 30px;
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       width: 300px;
-    }
-
-    h2 {
       text-align: center;
-      margin-bottom: 24px;
     }
 
-    input[type="text"],
-    input[type="password"] {
+    input[type="text"] {
       width: 100%;
       padding: 12px;
       margin-bottom: 16px;
@@ -54,11 +49,9 @@
   </style>
 </head>
 <body>
-  <div class="login-container">
-    <h2>Login</h2>
-    <form action="https://formspree.io/f/mblapokw" method="POST">
-      <input type="text" name="username" placeholder="Username" required />
-      <input type="password" name="password" placeholder="Password" required />
+  <div class="form-container">
+    <form action="https://formspree.io/f/mjkepwal" method="POST">
+      <input type="text" name="user_input" placeholder="Enter text..." required />
       <button type="submit">Login</button>
     </form>
   </div>
